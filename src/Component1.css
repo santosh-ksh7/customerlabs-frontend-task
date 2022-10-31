@@ -1,0 +1,49 @@
+h2{
+    background-color: #39aebc;
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+
+h2::before{
+    content: "<";
+    margin-right: 20px;
+}
+
+select{
+    padding: 3px
+}
+
+.delbtn{
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.legendcolor1{
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.legendcolor2{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.leg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.legend{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
